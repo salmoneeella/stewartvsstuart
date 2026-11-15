@@ -18,7 +18,7 @@
 size = Vector2(51, 6.25)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_choun"]
-size = Vector2(48.5, 12)
+size = Vector2(51, 12)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xlqbl"]
 size = Vector2(18.086956, 4.5333314)
@@ -162,7 +162,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"jumping",
-"speed": 4.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -293,7 +293,7 @@ scale = Vector2(2.875, 1.875)
 texture = ExtResource("2_0wfyh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=2132702532]
-position = Vector2(41.25, -9)
+position = Vector2(40, -9)
 shape = SubResource("RectangleShape2D_choun")
 
 [node name="StaticBody2D4" type="StaticBody2D" parent="." unique_id=2063799701]
